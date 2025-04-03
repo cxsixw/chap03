@@ -1,8 +1,8 @@
-/* ÆÄÀÏ¸í: assignment06.c
- * ³»¿ë: PA06. ¾ÆÆÄÆ®ÀÇ ¸éÀûÀ» Á¦°ö¹ÌÅÍ(§³)·Î ÀÔ·Â¹Ş¾Æ ¸î ÆòÀÎÁö Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥
- * ÀÛ¼ºÀÚ: ³ªÇö¾Æ
- * ³¯Â¥: 2025.4.3
- * ¹öÀü: v1.0
+/* íŒŒì¼ëª…: assignment06.c
+ * ë‚´ìš©: PA06. ì•„íŒŒíŠ¸ì˜ ë©´ì ì„ ì œê³±ë¯¸í„°(ã¡)ë¡œ ì…ë ¥ë°›ì•„ ëª‡ í‰ì¸ì§€ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ë¨
+ * ì‘ì„±ì: ë‚˜í˜„ì•„
+ * ë‚ ì§œ: 2025.4.3
+ * ë²„ì „: v1.0
  */
 
 #define _CRT_SECURE_NO_WARNINGS
@@ -10,18 +10,18 @@
 
 #define SQM_TO_PYEONG 0.3025
 
-void convertArea() {
+void ConvertArea() {
     double sqm, pyeong;
 
-    printf("¾ÆÆÄÆ®ÀÇ ¸éÀû(Á¦°ö¹ÌÅÍ)? ");
+    printf("ì•„íŒŒíŠ¸ì˜ ë©´ì (ì œê³±ë¯¸í„°)? ");
     scanf("%lf", &sqm);
 
     pyeong = sqm * SQM_TO_PYEONG;
 
-    printf("%.2lf Á¦°ö¹ÌÅÍ = %.2lf Æò\n", sqm, pyeong);
+    printf("%.2lf ì œê³±ë¯¸í„° = %.2lf í‰\n", sqm, pyeong);
 }
 
 int main() {
-    convertArea();
+    ConvertArea();
     return 0;
 }
