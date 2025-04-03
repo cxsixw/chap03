@@ -1,8 +1,8 @@
-/* ÆÄÀÏ¸í: assignment02.c
- * ³»¿ë: PA02. °¡·ÎÀÇ ±æÀÌ¿Í ¼¼·ÎÀÇ ±æÀÌ¸¦ ÀÔ·Â¹Ş¾Æ Á÷»ç°¢ÇüÀÇ ³ĞÀÌ¿Í µÑ·¹¸¦ ±¸ÇÏ´Â ÇÁ·Î±×·¥
- * ÀÛ¼ºÀÚ: ³ªÇö¾Æ
- * ³¯Â¥: 2025.4.3
- * ¹öÀü: v1.0
+/* íŒŒì¼ëª…: assignment02.c
+ * ë‚´ìš©: PA02. ê°€ë¡œì˜ ê¸¸ì´ì™€ ì„¸ë¡œì˜ ê¸¸ì´ë¥¼ ì…ë ¥ë°›ì•„ ì§ì‚¬ê°í˜•ì˜ ë„“ì´ì™€ ë‘˜ë ˆë¥¼ êµ¬í•˜ëŠ” í”„ë¡œê·¸ë¨
+ * ì‘ì„±ì: ë‚˜í˜„ì•„
+ * ë‚ ì§œ: 2025.4.3
+ * ë²„ì „: v1.0
  */
 
 #define _CRT_SECURE_NO_WARNINGS
@@ -11,17 +11,17 @@
 void CalculateRectangle() {
     int width, height;
 
-    printf("°¡·ÎÀÇ ±æÀÌ? ");
+    printf("ê°€ë¡œì˜ ê¸¸ì´? ");
     scanf("%d", &width);
 
-    printf("¼¼·ÎÀÇ ±æÀÌ? ");
+    printf("ì„¸ë¡œì˜ ê¸¸ì´? ");
     scanf("%d", &height);
 
-    printf("Á÷»ç°¢ÇüÀÇ ³ĞÀÌ: %d\n", width * height);
-    printf("Á÷»ç°¢ÇüÀÇ µÑ·¹: %d\n", 2 * (width + height));
+    printf("ì§ì‚¬ê°í˜•ì˜ ë„“ì´: %d\n", width * height);
+    printf("ì§ì‚¬ê°í˜•ì˜ ë‘˜ë ˆ: %d\n", 2 * (width + height));
 }
 
 int main() {
-    calculateRectangle();  // ÇÔ¼ö È£Ãâ
+    CalculateRectangle();  // í•¨ìˆ˜ í˜¸ì¶œ
     return 0;
 }
