@@ -1,27 +1,27 @@
-/* ÆÄÀÏ¸í: assignment07.c
- * ³»¿ë: PA07. ¾ÆÆÄÆ®ÀÇ ¸éÀûÀ» Á¦°ö¹ÌÅÍ(§³)·Î ÀÔ·Â¹Ş¾Æ ¸î ÆòÀÎÁö Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥
- * ÀÛ¼ºÀÚ: ³ªÇö¾Æ
- * ³¯Â¥: 2025.4.3
- * ¹öÀü: v1.0
+/* íŒŒì¼ëª…: assignment07.c
+ * ë‚´ìš©: PA07. ì•„íŒŒíŠ¸ì˜ ë©´ì ì„ ì œê³±ë¯¸í„°(ã¡)ë¡œ ì…ë ¥ë°›ì•„ ëª‡ í‰ì¸ì§€ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ë¨
+ * ì‘ì„±ì: ë‚˜í˜„ì•„
+ * ë‚ ì§œ: 2025.4.3
+ * ë²„ì „: v1.0
  */
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-void calculateExponent() {
+void CalculateExponent() {
     double number, square, cube;
 
-    printf("½Ç¼ö?");
+    printf("ì‹¤ìˆ˜?");
     scanf("%lf", &number);
 
     square = number * number;
     cube = number * number * number;
 
-    printf("Á¦°ö: %e\n", square);
-    printf("¼¼Á¦°ö: %e\n", cube);
+    printf("ì œê³±: %e\n", square);
+    printf("ì„¸ì œê³±: %e\n", cube);
 }
 
 int main() {
-    calculateExponent();
+    CalculateExponent();
     return 0;
 }
